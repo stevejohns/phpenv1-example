@@ -46,3 +46,4 @@ packages/*
 .vagrant/*
 
 .env
+/storage/database.local.db
