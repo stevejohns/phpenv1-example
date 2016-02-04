@@ -29,7 +29,7 @@ $result = $v->validate($_POST);
 if ($result->isValid()) {
     echo "Submission is good!";
 } else {
-    dump($result->getMessages());
+//    dump($result->getMessages());
 }
 
 try {
